@@ -1,8 +1,88 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 a {
   color: #00B7FF; }
+
+.content {
+  margin: 0 auto;
+  width: 900px;
+  padding: 50px; }
+
+.site-header {
+  position: relative;
+  width: 100%;
+  background: #010101;
+  height: 200px;
+  -webkit-box-shadow: 0px 0px 3px #010101;
+  box-shadow: 0px 0px 3px #010101;
+  z-index: 200; }
+
+.site-header .header-logo {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  float: left;
+  background: #010101 url("https://dsa-lsc.org/assets/images/DSA_LSC_Logo.jpg") no-repeat top left;
+  background-size: auto auto;
+  background-size: auto 100%;
+  text-indent: -99999px;
+  height: 200px;
+  width: 298px; }
+
+.site-header .header-title {
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  padding-top: 2rem; }
+
+.site-header .header-title h1 {
+  font-size: 3.75rem; }
+
+.site-header .header-title h2 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1rem;
+  margin: 0px; }
+
+.red-highlight {
+  color: #ee3532;
+  font-weight: 700; }
+
+nav.site-nav {
+  position: relative;
+  float: right;
+  clear: none;
+  right: 20px;
+  height: 200px; }
+
+nav.site-nav .nav-social {
+  position: absolute;
+  top: 15px;
+  right: 0px; }
+
+nav.site-nav .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+nav.site-nav .nav-social li {
+  display: inline-block;
+  margin: 0px 0px 0px 5px; }
+
+nav.site-nav .nav-social li a {
+  opacity: 0.8;
+  white-space: nowrap; }
+
+nav.site-nav .nav-social a.social-link-fb svg {
+  height: 15px; }
+
+nav.site-nav .nav-social li a svg {
+  fill: #fff;
+  height: 20px; }
 
 /*# sourceMappingURL=style.css.map */
