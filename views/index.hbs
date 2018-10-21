@@ -1,0 +1,12 @@
+<h1>LSC Zoom</h1>
+
+<p>To book a call, first check that your time slot (adjusted for timezone) isn't already taken, then <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGXbF1GjeC9nXenVfvR6UzJrFlaOegG9Re7rEg9p-2o4gvqg/viewform" title="google form to book">use our form to book it</a>.</p>
+
+{{#each meetingsByDay}}
+  <h3>{{ displayDate }}</h3>
+  <ul>
+  {{#each meetings}}
+    <li>{{startDate}} - {{endDate}}</li>
+  {{/each}}
+  </ul>
+{{/each}}
