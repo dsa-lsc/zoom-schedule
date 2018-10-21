@@ -38,7 +38,7 @@ function groupMeetingsByDays (meetings) {
 
       meeting.startDate = moment.tz(meeting.start_time, meeting.timezone).format('h:mm z');
       meeting.endDate = moment.tz(meeting.start_time, meeting.timezone).add(meeting.duration, 'm').format('h:mm z');
-      console.log('\t\t startDate', meeting.startDate)
+
       if (foundDate) {
         foundDate.meetings.push(meeting);
         foundDate.meetings.sort(sortEvents);
