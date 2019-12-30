@@ -10,4 +10,7 @@ npm install
 npm start
 ```
 
-This is a standard (generated) express app. The styles are sass and in `public/stylesheets`, the views are handlebars and in `views`. Code for the controller (and fetching )
+Will be viewable on `http://localhost:3000/`.
+
+This is a standard (generated) express app. The styles are sass and in `public/stylesheets`, the views are handlebars and in `views`. Code for the controller (and fetching) is in `app.js`.
+
